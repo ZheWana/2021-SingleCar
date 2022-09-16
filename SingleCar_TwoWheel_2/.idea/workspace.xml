@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="CtrledCar" targetName="CtrledCar.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cd749da-3f7e-46ef-b7a1-3bd7c23f3f70" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../FOC/FOC/SVPWM.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/FOC/SVPWM.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/FOC/mathFuns.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/FOC/mathFuns.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/Debug/Debug.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/FOC/SVPWM.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/FOC/foc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/FOC/mathFuns.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/PID/pid.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/.idea/ICM20689Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Inc/spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Inc/tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Inc/usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/spi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/system_stm32f4xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Src/usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Core/Startup/startup_stm32f401ccux.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Debug/Debug.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Debug/Debug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/config/linaro-cm4-atmel-samg55/main.ICM20789-DMP.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/EMDFwVersion.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/CustomCommand.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Ctrl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Ctrl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789DataConverter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789DataConverter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Defs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Dmp3Driver.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Dmp3Driver.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789LoadFirmware.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789LoadFirmware.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789MPUFifoControl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789MPUFifoControl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789SelfTest.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789SelfTest.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Serif.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Setup.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Setup.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Transport.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Drivers/Icm20789-DMP/Icm20789Transport.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/Sensor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/SensorConfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/Devices/SensorTypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/DynamicProtocol/DynProtocol.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/DynamicProtocol/DynProtocol.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/DynamicProtocol/DynProtocolTransport.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/DynamicProtocol/DynProtocolTransportUart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/DynamicProtocol/DynProtocolTransportUart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/DataConverter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/ErrorHelper.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/ErrorHelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvAssert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvBool.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvError.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvExport.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvProtocol.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvProtocol.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvQueue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvScheduler.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/InvScheduler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/Message.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/Message.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/RingBuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/RingByteBuffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/RingByteBuffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/EmbUtils/dataconverter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/IDDVersion.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/VSensor/VSensorData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689-DMP/sources/Invn/VSensor/vsensorconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/ICM20689Demo.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICM20689Demo/STM32F401CCUX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CtrledCar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Startup/startup_stm32f401ccux.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debug/Debug.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Debug/Debug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F401CCUX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/user.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TempC/Debug/Debug.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TempC/Debug/Debug.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TempSTM32F4/.idea/TempSTM32F4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TempSTM32F4/Core/Src/array.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Core/Inc/stm32f4xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/Core/Inc/tim.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Core/Src/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/Core/Src/tim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Debug/Debug.c" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/Debug/Debug.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Debug/Debug.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/Debug/Debug.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Cholesky" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/CholmodSupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Core" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Dense" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Eigen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Eigenvalues" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Geometry" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Householder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/IterativeLinearSolvers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Jacobi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/KLUSupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/LU" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/MetisSupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/OrderingMethods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/PaStiXSupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/PardisoSupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/QR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/QtAlignedMalloc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/SPQRSupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/SVD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/Sparse" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/SparseCholesky" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/SparseCore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/SparseLU" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/SparseQR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/StdDeque" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/StdList" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/StdVector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/SuperLUSupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/UmfPackSupport" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Cholesky/LDLT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Cholesky/LLT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Cholesky/LLT_LAPACKE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/CholmodSupport/CholmodSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/ArithmeticSequence.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Array.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/ArrayBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/ArrayWrapper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Assign.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/AssignEvaluator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Assign_MKL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/BandMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Block.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/BooleanRedux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/CommaInitializer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/ConditionEstimator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/CoreEvaluators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/CoreIterators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/CwiseBinaryOp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/CwiseNullaryOp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/CwiseTernaryOp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/CwiseUnaryOp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/CwiseUnaryView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/DenseBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/DenseCoeffsBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/DenseStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Diagonal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/DiagonalMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/DiagonalProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Dot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/EigenBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/ForceAlignedAccess.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Fuzzy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/GeneralProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/GenericPacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/GlobalFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/IO.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/IndexedView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Inverse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Map.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/MapBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/MathFunctionsImpl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Matrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/MatrixBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/NestByValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/NoAlias.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/NumTraits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/PartialReduxEvaluator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/PermutationMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/PlainObjectBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Product.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/ProductEvaluators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Random.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Redux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Ref.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Replicate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Reshaped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/ReturnByValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Reverse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Select.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/SelfAdjointView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/SelfCwiseBinaryOp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Solve.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/SolveTriangular.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/SolverBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/StableNorm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/StlIterators.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Stride.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Swap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Transpose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Transpositions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/TriangularMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/VectorBlock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/VectorwiseOp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/Visitor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AVX/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AVX/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AVX/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AVX/TypeCasting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AVX512/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AVX512/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AVX512/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AVX512/TypeCasting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AltiVec/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AltiVec/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AltiVec/MatrixProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AltiVec/MatrixProductCommon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AltiVec/MatrixProductMMA.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/AltiVec/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/CUDA/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/Default/BFloat16.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/Default/ConjHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/Default/Half.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/Default/Settings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/Default/TypeCasting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/GPU/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/GPU/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/GPU/TypeCasting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/HIP/hcc/math_constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/MSA/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/MSA/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/MSA/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/NEON/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/NEON/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/NEON/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/NEON/TypeCasting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SSE/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SSE/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SSE/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SSE/TypeCasting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SVE/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SVE/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SVE/TypeCasting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SYCL/InteropHeaders.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SYCL/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SYCL/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SYCL/SyclMemoryModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/SYCL/TypeCasting.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/ZVector/Complex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/ZVector/MathFunctions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/arch/ZVector/PacketMath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/functors/AssignmentFunctors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/functors/BinaryFunctors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/functors/NullaryFunctors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/functors/StlFunctors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/functors/TernaryFunctors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/functors/UnaryFunctors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/GeneralBlockPanelKernel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/GeneralMatrixMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/GeneralMatrixVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/Parallelizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/SelfadjointMatrixMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/SelfadjointMatrixVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/SelfadjointProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/SelfadjointRank2Update.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/TriangularMatrixMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/TriangularMatrixVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/TriangularSolverMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/products/TriangularSolverVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/BlasUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/ConfigureVectorization.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/Constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/DisableStupidWarnings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/ForwardDeclarations.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/IndexedViewHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/IntegralConstant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/MKL_support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/Macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/Memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/Meta.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/NonMPL2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/ReenableStupidWarnings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/ReshapedHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/StaticAssert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/SymbolicIndex.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Core/util/XprHelper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/ComplexEigenSolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/ComplexSchur.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/EigenSolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/HessenbergDecomposition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/RealQZ.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/RealSchur.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Eigenvalues/Tridiagonalization.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/AlignedBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/AngleAxis.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/EulerAngles.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/Homogeneous.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/Hyperplane.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/OrthoMethods.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/ParametrizedLine.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/Quaternion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/Rotation2D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/RotationBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/Scaling.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/Transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/Translation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/Umeyama.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Geometry/arch/Geometry_SIMD.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Householder/BlockHouseholder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Householder/Householder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Householder/HouseholderSequence.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/Jacobi/Jacobi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/KLUSupport/KLUSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/LU/Determinant.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/LU/FullPivLU.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/LU/InverseImpl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/LU/PartialPivLU.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/LU/PartialPivLU_LAPACKE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/LU/arch/InverseSize4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/MetisSupport/MetisSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/OrderingMethods/Amd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/OrderingMethods/Eigen_Colamd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/OrderingMethods/Ordering.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/PaStiXSupport/PaStiXSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/PardisoSupport/PardisoSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/QR/ColPivHouseholderQR.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/QR/CompleteOrthogonalDecomposition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/QR/FullPivHouseholderQR.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/QR/HouseholderQR.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/QR/HouseholderQR_LAPACKE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SVD/BDCSVD.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SVD/JacobiSVD.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SVD/JacobiSVD_LAPACKE.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SVD/SVDBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SVD/UpperBidiagonalization.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCholesky/SimplicialCholesky.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/AmbiVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/CompressedStorage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/MappedSparseMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseAssign.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseBlock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseColEtree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseCompressedBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseCwiseBinaryOp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseCwiseUnaryOp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseDenseProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseDiagonalProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseDot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseFuzzy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseMatrixBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparsePermutation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseProduct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseRedux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseRef.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseSelfAdjointView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseSolverBase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseSparseProductWithPruning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseTranspose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseTriangularView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseUtil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/SparseView.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseCore/TriangularSolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLUImpl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_Memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_Structs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_Utils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_column_bmod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_column_dfs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_gemm_kernel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_kernel_bmod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_panel_bmod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_panel_dfs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_pivotL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_pruneL.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseLU/SparseLU_relax_snode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SparseQR/SparseQR.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/StlSupport/StdDeque.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/StlSupport/StdList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/StlSupport/StdVector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/StlSupport/details.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/SuperLUSupport/SuperLUSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/UmfPackSupport/UmfPackSupport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/misc/Image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/misc/Kernel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/misc/RealSvd2x2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/misc/blas.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/misc/lapack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/misc/lapacke.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/misc/lapacke_mangling.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/ArrayCwiseBinaryOps.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/ArrayCwiseUnaryOps.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/BlockMethods.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/CommonCwiseBinaryOps.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/CommonCwiseUnaryOps.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/IndexedViewMethods.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/MatrixCwiseBinaryOps.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/MatrixCwiseUnaryOps.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/Eigen/src/plugins/ReshapedMethods.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/FOC.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/FOC.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/FOC/foc.c" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/FOC/foc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/FOC/foc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/FOC/foc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/PID/pid.c" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/PID/pid.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/PID/pid.h" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/PID/pid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/3.20.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/Core/Src/stm32f4xx_it.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/Core/Src/tim.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/FOC.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.map" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/FOC.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../FOC/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/mathFun.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FOC/mathFun.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SignalSrc.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/CMakeFiles/TempC.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/TempC.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/TempC.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/TempC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/TempC.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempC/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../TempC/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TempSTM32F4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TempSTM32F4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestFree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestFree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestFree/TestFree.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../TestFree/TestFree.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestFree/cmake-build-debug/CMakeFiles/TestFree.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../TestFree/cmake-build-debug/CMakeFiles/TestFree.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestFree/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../TestFree/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1505" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
+    <option name="loadedFiles">
+      <list>
+        <option value="D:\DeskTop\SingleCar\STM32F40x.svd" />
+      </list>
+    </option>
+    <option name="nodes">
+      <map>
+        <entry key="STM32F40x.svd" value="-E" />
+        <entry key="STM32F40x.svd|g:USART" value="-E" />
+        <entry key="STM32F40x.svd|p:USART2" value="-E" />
+        <entry key="STM32F40x.svd|p:USART2|BRR" value="HC" />
+        <entry key="STM32F40x.svd|p:USART2|CR1" value="HE" />
+        <entry key="STM32F40x.svd|p:USART2|CR2" value="HC" />
+        <entry key="STM32F40x.svd|p:USART2|CR3" value="HE" />
+        <entry key="STM32F40x.svd|p:USART2|DR" value="HC" />
+        <entry key="STM32F40x.svd|p:USART2|GTPR" value="HC" />
+        <entry key="STM32F40x.svd|p:USART2|SR" value="HE" />
+      </map>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zUs6Gb6lB8lQz6yGfyAszYOMoz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.cidr.embedded.config" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DeskTop\SingleCar_TwoWheel\user" />
+      <recent name="D:\DeskTop\SingleCar_TwoWheel" />
+      <recent name="D:\DeskTop\CtrledCar" />
+      <recent name="D:\Application_Data\Clion_Projects\CtrledCar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DeskTop\SingleCar_TwoWheel\user" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD CtrledCar">
+    <configuration name="CtrledCar.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CtrledCar" TARGET_NAME="CtrledCar.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CtrledCar" RUN_TARGET_NAME="CtrledCar.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD CtrledCar" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CtrledCar" TARGET_NAME="CtrledCar.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="CtrledCar" RUN_TARGET_NAME="CtrledCar.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\Application_Data\Clion_Projects\.link_config\jlink-f4.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.CtrledCar.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD CtrledCar" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9cd749da-3f7e-46ef-b7a1-3bd7c23f3f70" name="更改" comment="" />
+      <created>1634213824174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634213824174</updated>
+      <workItem from="1634213839860" duration="14274000" />
+      <workItem from="1635983659785" duration="7603000" />
+      <workItem from="1635992151105" duration="39042000" />
+      <workItem from="1636072429228" duration="14447000" />
+      <workItem from="1636092664042" duration="11387000" />
+      <workItem from="1636104402701" duration="1171000" />
+      <workItem from="1636105602958" duration="4119000" />
+      <workItem from="1636110551496" duration="32739000" />
+      <workItem from="1636166933364" duration="44838000" />
+      <workItem from="1636242674287" duration="2704000" />
+      <workItem from="1636270522581" duration="3476000" />
+      <workItem from="1636274115374" duration="3447000" />
+      <workItem from="1636432086615" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
+          <line>77</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="val" />
+        <watch expression="buffer" />
+        <watch expression="crossHistroy" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
